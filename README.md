@@ -71,3 +71,7 @@ Podczas wykonywania zadania możesz korzystać z informacji (np. znalezionych w 
 **Na potrzeby badania naukowego związanego z niniejszym projektem każdy student będzie proszony o wypełnienie imiennej ankiety zawierającej kilka pytań (np. o doświadczenie w programowaniu lub o średnią ocen z poprzedniego roku akademickiego), a napisany przez niego kod również nie będzie anonimowy lecz przypisany do konkretnego studenta.**
 
 **Jednak informacje te będą użyte wyłącznie na potrzeby technicznego opracowania obliczeń związanych z rezultatami zadania. Wyniki ankiety nie będą miały żadnego wpływu na ocenę pracy studenta, a wszelkie publikowane wyniki badań będą ANONIMIZOWANE, co oznacza, że w przypadku jakiejkolwiek publikacji wyników badań opartych na niniejszym projekcie ŻADNE dane osobowe studentów biorących w nim udział nie będą NIGDY ujawnione.**
+
+
+**Wysyłanie porjektu**
+Projekt należy wysłać prowadzonczemu w foemie spakowanego pliku: "Nazwisko_Imie.zip".
