@@ -74,4 +74,5 @@ Podczas wykonywania zadania możesz korzystać z informacji (np. znalezionych w 
 
 
 **Wysyłanie porjektu**
+
 Projekt należy wysłać prowadzonczemu w foemie spakowanego pliku: "Nazwisko_Imie.zip".
