@@ -7,6 +7,11 @@ import org.junit.Test;
 
 public class DummyTest {
 
+    /**
+     * Podstawowy test. Dla każdego testu sprawdzamy wartość asercji poprzez == oraz equals ze względu na różnice
+     * w wartościach podczas porównywania wartości na stosie i na stercie (obiekty referencyjne i niereferencyjne).
+     * Dokładniejsze informacnie: https://www.geeksforgeeks.org/difference-equals-method-java/
+     */
     @Test
     public void test01(){
         IDummySample dummyNWD = new DummySample();
@@ -16,6 +21,9 @@ public class DummyTest {
         Assert.assertTrue(l1.equals(l2));
     }
 
+    /**
+     * Test sprawdzający zero jako jeden z parametrów dla NWD
+     */
     @Test
     public void test02(){
         IDummySample dummyNWD = new DummySample();
@@ -25,6 +33,10 @@ public class DummyTest {
         Assert.assertTrue(l1.equals(l2));
     }
 
+    /**
+     * Test sprawdzający equals kontra '==' dla części zmiennych numerycznych niereferencyjnych.
+     * W javie do 128 (2^7) adres w pamięci jest równy wartości.
+     */
     @Test
     public void test03(){
         IDummySample dummyNWD = new DummySample();
