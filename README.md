@@ -1,4 +1,8 @@
-**INSTRUKCJA**
+**PROJEKT „BANKOMAT&quot; – INSTRUKCJA**
+
+Przed wykonaniem jakichkolwiek czynności w projekcie wypełnij krótką ankietę złożoną z trzech prostych pytań dotyczących samooceny w zakresie umiejętności programowania i testowania. Link do ankiety:
+
+[https://forms.gle/6DoyZfzuY1skFt7N8](https://forms.gle/6DoyZfzuY1skFt7N8)
 
 Zadanie polega na implementacji kodu obsługującego działanie bankomatu. Projekt możesz pobrać pod adresem:
 
@@ -38,7 +42,7 @@ Testy muszą odnosić się  **tylko do metod z interfejsu**. Celem zadania jest 
 
 W projekcie został dodany przykład prezentujący mechanikę testowania jednostkowego, który zawiera testy operujący tylko i wyłącznie na metodach interface. Testy zostały napisane do klasy &#39;DummySample&#39; implementujacej interface &#39;IDummySample&#39; . Testy znajdują się w klasie &#39;DummyTest&#39;. Zeby uruchomić testy należy wcisnać w inteliJ prawy klawisz myszki na zielonym guziku. Przykład poniżej.
 
-![](RackMultipart20210324-4-9msf2c_html_736fc5d81fc555f0.png)
+![](RackMultipart20210324-4-1escqv1_html_736fc5d81fc555f0.png)
 
 W projekcie stworzono trzy przykładowe testy testujące metodę NWD zwracającą największy wspólny dzielnik dwóch liczb. Test test01 sprawdza typową sytuację – obliczenie NWD dla dwóch liczb, które nie są względnie pierwsze, tzn. których największy wspólny dzielnik jest większy od 1. Test test02 sprawdza sytuację, w których pierwsza liczba wynosi 0. Test test03 sprawdza sytuację, w której jedna liczba jest wielokrotnością drugiej. W każdym z testów znajdują się dwie asercje – jedna sprawdza równość wprost na wartościach liczbowych, a druga – analogiczną równość ale na wartościach zmiennych, do których podstawiono odpowiednie liczby. Testy mogą w ogólności posiadać jedną lub więcej asercji, nie jest konieczne tworzenie więcej niż jednej asercji w teście.
 
