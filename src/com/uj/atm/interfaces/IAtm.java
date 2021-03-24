@@ -29,8 +29,7 @@ public interface IAtm {
      * @param newPinConfirm Nowy PIN - wartość weryfikująca: newPin oraz newPinConfirm muszą być sobie równe.
      * @return Jeżeli uda się zmienić pin zwraca true.
      */
-    boolean ChangePinCard(ICreditCard card, String oldPin, String
-            newPin, String newPinConfirm);
+    boolean ChangePinCard(ICreditCard card, String oldPin, String newPin, String newPinConfirm);
     /**
      * Metoda realizuje wpłatę pieniędzy na konto stowarzyszone z daną kartą
      * @param card Karta kredytowa stowarzyszona z pewnym kontem
