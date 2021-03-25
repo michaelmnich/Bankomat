@@ -26,7 +26,7 @@ public interface ICreditCard {
      * @return Zwraca true lub false w zależności od tego,
      * czy operacja się uda (może się nie udać jeśli na przykład obiekt konta dla danej karty jest = null).
      */
-    double DepositFunds(double amount);
+    boolean DepositFunds(double amount);
     /**
      * Metoda realizuje wypłatę określonej kwoty z konta stowarzyszonego z daną kartą.
      * @param amount Kwota jaką chcemy wypłacić
